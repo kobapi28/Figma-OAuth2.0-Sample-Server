@@ -13,8 +13,8 @@ services:
       - ./:/usr/src/app
       - /usr/src/app/node_modules
     ports:
-      - 3001:3000
-    command: sh -c 'yarn install && yarn start:dev'
+      - 3001:3001
+    #command: sh -c 'yarn install && yarn start:dev'
 
 networks:
   net:
